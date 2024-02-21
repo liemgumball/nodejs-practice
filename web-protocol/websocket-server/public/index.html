@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Socket Demo</title>
+	</head>
+	<body>
+		<main>
+			<h1>Communicating with WebSocket</h1>
+			<input type="text" name="msg" id="msg" />
+			<button type="submit" id="send">Send</button>
+
+			<br />
+			<div id="output"></div>
+		</main>
+	</body>
+	<script>
+		const ws = new WebSocket('ws://localhost:3000')
+		const output = document.getElementById('output')
+		const send = document.getElementById('send')
+
+		send.addEventListener('click', () => {
+			const msg = document.getElementById('msg').value
+			ws.send(msg)
+			output.innerHTML += log('Sent', msg)
+		})
+		function log(event, msg) {
+			return '<p>' + event + ' ' + msg + '</p>'
+		}
+		ws.onmessage = function (e) {
+			output.innerHTML += log('Received', e.data)
+		}
+		ws.onopen = function (e) {
+			output.innerHTML += log('Connected', '')
+		}
+		ws.onclose = function (e) {
+			output.innerHTML += log('Disconnected', e.code)
+		}
+		ws.onerror = function (e) {
+			output.innerHTML += log('Error', e.data)
+		}
+	</script>
+</html>

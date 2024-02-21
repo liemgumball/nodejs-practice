@@ -1,0 +1,11 @@
+{
+	"user": {
+		"id": 1,
+		"name": "liem"
+	},
+	"product": [
+		{ "id": 1, "name": "phone" },
+		{ "id": 2, "name": "phone1" },
+		{ "id": 3, "name": "phone2" }
+	]
+}
