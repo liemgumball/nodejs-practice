@@ -1,0 +1,14 @@
+{
+	"name": "reverse-sentence",
+	"version": "1.0.0",
+	"description": "",
+	"main": "reverse-sentence.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"lint": "./node_modules/prettier/bin-prettier.cjs . --write"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {}
+}
