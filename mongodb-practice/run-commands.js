@@ -23,10 +23,10 @@ async function run() {
 
 	// Find and print the storage statistics for the "sample_mflix" database using the 'dbStats' command
 	const result = await db.command({
-		// dbStats: 1,
+		dbStats: 1,
 		// getCollectionNames: 1,
 		// dbName: 1,
-		raws: 1,
+		// raws: 1,
 	})
 
 	console.log(result)
