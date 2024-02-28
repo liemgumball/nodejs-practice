@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Express</title>
+	</head>
+	<body>
+		<h1>Express</h1>
+		<p>Welcome to Express</p>
+		<% if (fail) { %>
+		<p style="color: red">Login fail</p>
+		<% } %>
+		<form method="post" action="login">
+			Username: <input type="text" name="username" /> Password:
+			<input type="password" name="password" />
+			<input type="submit" value="Login" />
+		</form>
+	</body>
+</html>

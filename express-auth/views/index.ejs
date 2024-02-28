@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title title> Express </title>
+  </head>
+<body>
+  <h1> Express </h1>
+  <p> Welcome to Express </p>
+  <% if (user) { %>
+  <p> Hello <%= user.name %>! </p>
+  <a href=/auth/logout> Logout  </a>
+  <% } else { %>
+  <a href=/auth/login> Login </a> 
+  <% } %>
+</body>
+</html>

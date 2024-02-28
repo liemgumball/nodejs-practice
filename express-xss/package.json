@@ -1,0 +1,11 @@
+{
+  "name": "express-xss",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "escape-html": "^1.0.3",
+    "express": "^4.18.2",
+    "he": "^1.2.0"
+  }
+}
