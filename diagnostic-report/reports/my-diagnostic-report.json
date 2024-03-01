@@ -1,0 +1,624 @@
+
+{
+  "header": {
+    "reportVersion": 3,
+    "event": "Exception",
+    "trigger": "Exception",
+    "filename": "my-diagnostic-report.json",
+    "dumpEventTime": "2024-03-01T11:33:21Z",
+    "dumpEventTimeStamp": "1709267601943",
+    "processId": 34697,
+    "threadId": 0,
+    "cwd": "/home/thinkpad/Desktop/Final Project/practice/backend/learning/diagnostic-report",
+    "commandLine": [
+      "node",
+      "--report-uncaught-exception",
+      "server.js"
+    ],
+    "nodejsVersion": "v18.19.0",
+    "glibcVersionRuntime": "2.35",
+    "glibcVersionCompiler": "2.28",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "linux",
+    "componentVersions": {
+      "acorn": "8.10.0",
+      "ada": "2.7.2",
+      "ares": "1.20.1",
+      "base64": "0.5.0",
+      "brotli": "1.0.9",
+      "cjs_module_lexer": "1.2.2",
+      "cldr": "43.1",
+      "icu": "73.2",
+      "llhttp": "6.0.11",
+      "modules": "108",
+      "napi": "9",
+      "nghttp2": "1.57.0",
+      "nghttp3": "0.7.0",
+      "ngtcp2": "0.8.1",
+      "node": "18.19.0",
+      "openssl": "3.0.12+quic",
+      "simdutf": "3.2.18",
+      "tz": "2023c",
+      "undici": "5.26.4",
+      "unicode": "15.0",
+      "uv": "1.44.2",
+      "uvwasi": "0.0.19",
+      "v8": "10.2.154.26-node.28",
+      "zlib": "1.2.13.1-motley"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Hydrogen",
+      "headersUrl": "https://nodejs.org/download/release/v18.19.0/node-v18.19.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v18.19.0/node-v18.19.0.tar.gz"
+    },
+    "osName": "Linux",
+    "osRelease": "6.5.0-21-generic",
+    "osVersion": "#21~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Feb  9 13:32:52 UTC 2",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz",
+        "speed": 629,
+        "user": 772310,
+        "nice": 1980,
+        "sys": 167600,
+        "idle": 9980370,
+        "irq": 0
+      },
+      {
+        "model": "11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz",
+        "speed": 3959,
+        "user": 776680,
+        "nice": 1710,
+        "sys": 162620,
+        "idle": 9976280,
+        "irq": 0
+      },
+      {
+        "model": "11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz",
+        "speed": 2326,
+        "user": 755900,
+        "nice": 1230,
+        "sys": 183430,
+        "idle": 9928610,
+        "irq": 0
+      },
+      {
+        "model": "11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz",
+        "speed": 3011,
+        "user": 786580,
+        "nice": 3560,
+        "sys": 158920,
+        "idle": 9977080,
+        "irq": 0
+      },
+      {
+        "model": "11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz",
+        "speed": 3126,
+        "user": 757400,
+        "nice": 1660,
+        "sys": 161100,
+        "idle": 10010180,
+        "irq": 0
+      },
+      {
+        "model": "11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz",
+        "speed": 3855,
+        "user": 762990,
+        "nice": 2320,
+        "sys": 160930,
+        "idle": 10002590,
+        "irq": 0
+      },
+      {
+        "model": "11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz",
+        "speed": 3820,
+        "user": 779860,
+        "nice": 2130,
+        "sys": 160220,
+        "idle": 9990380,
+        "irq": 0
+      },
+      {
+        "model": "11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz",
+        "speed": 2518,
+        "user": 758430,
+        "nice": 3290,
+        "sys": 179150,
+        "idle": 9949860,
+        "irq": 0
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "wlp0s20f3",
+        "internal": false,
+        "mac": "70:cd:0d:0f:c3:6e",
+        "address": "192.168.86.94",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "wlp0s20f3",
+        "internal": false,
+        "mac": "70:cd:0d:0f:c3:6e",
+        "address": "fe80::8773:6483:2cb0:b52f",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 3
+      }
+    ],
+    "host": "liemnguyen-thinkpad-e14"
+  },
+  "javascriptStack": {
+    "message": "TypeError [ERR_INVALID_PROTOCOL]: Protocol \"hello:\" not supported. Expected \"http:\"",
+    "stack": [
+      "at new NodeError (node:internal/errors:405:5)",
+      "at new ClientRequest (node:_http_client:188:11)",
+      "at request (node:http:100:10)",
+      "at Object.get (node:http:111:15)",
+      "at Object.<anonymous> (/home/thinkpad/Desktop/Final Project/practice/backend/learning/diagnostic-report/server.js:7:6)",
+      "at Module._compile (node:internal/modules/cjs/loader:1356:14)",
+      "at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)",
+      "at Module.load (node:internal/modules/cjs/loader:1197:32)",
+      "at Module._load (node:internal/modules/cjs/loader:1013:12)"
+    ],
+    "errorProperties": {
+      "code": "ERR_INVALID_PROTOCOL"
+    }
+  },
+  "javascriptHeap": {
+    "totalMemory": 5079040,
+    "executableMemory": 524288,
+    "totalCommittedMemory": 5222400,
+    "availableMemory": 2194264168,
+    "totalGlobalHandlesMemory": 8192,
+    "usedGlobalHandlesMemory": 2464,
+    "usedMemory": 4457016,
+    "memoryLimit": 2197815296,
+    "mallocedMemory": 254104,
+    "externalMemory": 446216,
+    "peakMallocedMemory": 164176,
+    "nativeContextCount": 1,
+    "detachedContextCount": 0,
+    "doesZapGarbage": 0,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "old_space": {
+        "memorySize": 3289088,
+        "committedMemory": 3407872,
+        "capacity": 3230720,
+        "used": 3230688,
+        "available": 32
+      },
+      "code_space": {
+        "memorySize": 471040,
+        "committedMemory": 499712,
+        "capacity": 434368,
+        "used": 434368,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 270336,
+        "committedMemory": 524288,
+        "capacity": 257888,
+        "used": 257888,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1030976,
+        "used": 0,
+        "available": 1030976
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 790528,
+        "capacity": 1030976,
+        "used": 534072,
+        "available": 496904
+      }
+    }
+  },
+  "nativeStack": [
+    {
+      "pc": "0x0000000000c21fdb",
+      "symbol": "node::TriggerNodeReport(v8::Isolate*, node::Environment*, char const*, char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, v8::Local<v8::Value>) [node]"
+    },
+    {
+      "pc": "0x0000000000c22807",
+      "symbol": "node::TriggerNodeReport(node::Environment*, char const*, char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, v8::Local<v8::Value>) [node]"
+    },
+    {
+      "pc": "0x0000000000b986b9",
+      "symbol": " [node]"
+    },
+    {
+      "pc": "0x0000000000b98fec",
+      "symbol": "node::errors::TriggerUncaughtException(v8::Isolate*, v8::Local<v8::Value>, v8::Local<v8::Message>, bool) [node]"
+    },
+    {
+      "pc": "0x0000000000b995a0",
+      "symbol": "node::errors::PerIsolateMessageListener(v8::Local<v8::Message>, v8::Local<v8::Value>) [node]"
+    },
+    {
+      "pc": "0x0000000000edab30",
+      "symbol": "v8::internal::MessageHandler::ReportMessageNoExceptions(v8::internal::Isolate*, v8::internal::MessageLocation const*, v8::internal::Handle<v8::internal::Object>, v8::Local<v8::Value>) [node]"
+    },
+    {
+      "pc": "0x0000000000edad41",
+      "symbol": "v8::internal::MessageHandler::ReportMessage(v8::internal::Isolate*, v8::internal::MessageLocation const*, v8::internal::Handle<v8::internal::JSMessageObject>) [node]"
+    },
+    {
+      "pc": "0x0000000000ec9b81",
+      "symbol": "v8::internal::Isolate::ReportPendingMessages() [node]"
+    },
+    {
+      "pc": "0x0000000000eafd18",
+      "symbol": " [node]"
+    },
+    {
+      "pc": "0x0000000000eb0aef",
+      "symbol": "v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*) [node]"
+    },
+    {
+      "pc": "0x0000000000d8b043",
+      "symbol": "v8::Function::Call(v8::Local<v8::Context>, v8::Local<v8::Value>, int, v8::Local<v8::Value>*) [node]"
+    },
+    {
+      "pc": "0x0000000000b744e8",
+      "symbol": "node::builtins::BuiltinLoader::CompileAndCall(v8::Local<v8::Context>, char const*, node::Realm*) [node]"
+    },
+    {
+      "pc": "0x0000000000c0f3a1",
+      "symbol": "node::Realm::ExecuteBootstrapper(char const*) [node]"
+    },
+    {
+      "pc": "0x0000000000b4cc10",
+      "symbol": " [node]"
+    },
+    {
+      "pc": "0x0000000000b4e546",
+      "symbol": "node::StartExecution(node::Environment*, std::function<v8::MaybeLocal<v8::Value> (node::StartExecutionCallbackInfo const&)>) [node]"
+    },
+    {
+      "pc": "0x0000000000ad5407",
+      "symbol": "node::LoadEnvironment(node::Environment*, std::function<v8::MaybeLocal<v8::Value> (node::StartExecutionCallbackInfo const&)>) [node]"
+    },
+    {
+      "pc": "0x0000000000bdb7f0",
+      "symbol": "node::NodeMainInstance::Run() [node]"
+    },
+    {
+      "pc": "0x0000000000b4dab8",
+      "symbol": "node::LoadSnapshotDataAndRun(node::SnapshotData const**, node::InitializationResult const*) [node]"
+    },
+    {
+      "pc": "0x0000000000b5161f",
+      "symbol": "node::Start(int, char**) [node]"
+    },
+    {
+      "pc": "0x00007fe4a1a29d90",
+      "symbol": " [/lib/x86_64-linux-gnu/libc.so.6]"
+    },
+    {
+      "pc": "0x00007fe4a1a29e40",
+      "symbol": "__libc_start_main [/lib/x86_64-linux-gnu/libc.so.6]"
+    },
+    {
+      "pc": "0x0000000000acfdce",
+      "symbol": "_start [node]"
+    }
+  ],
+  "resourceUsage": {
+    "free_memory": 8189452288,
+    "total_memory": 16449683456,
+    "rss": 44171264,
+    "available_memory": 8189452288,
+    "userCpuSeconds": 0.036098,
+    "kernelCpuSeconds": 0.008021,
+    "cpuConsumptionPercent": 4.4119,
+    "userCpuConsumptionPercent": 3.6098,
+    "kernelCpuConsumptionPercent": 0.8021,
+    "maxRss": 44171264,
+    "pageFaults": {
+      "IORequired": 23,
+      "IONotRequired": 3024
+    },
+    "fsActivity": {
+      "reads": 1784,
+      "writes": 24
+    }
+  },
+  "uvthreadResourceUsage": {
+    "userCpuSeconds": 0.035694,
+    "kernelCpuSeconds": 0.007932,
+    "cpuConsumptionPercent": 4.3626,
+    "userCpuConsumptionPercent": 3.5694,
+    "kernelCpuConsumptionPercent": 0.7932,
+    "fsActivity": {
+      "reads": 1784,
+      "writes": 24
+    }
+  },
+  "libuv": [
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000000006ae8940"
+    },
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000000005324aa0"
+    },
+    {
+      "type": "timer",
+      "is_active": false,
+      "is_referenced": false,
+      "address": "0x0000000006a0b340",
+      "repeat": 0,
+      "firesInMsFromNow": -11054385,
+      "expired": true
+    },
+    {
+      "type": "check",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000000006a0b3d8"
+    },
+    {
+      "type": "idle",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x0000000006a0b450"
+    },
+    {
+      "type": "prepare",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000000006a0b4c8"
+    },
+    {
+      "type": "check",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000000006a0b540"
+    },
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000000006a0b5b8"
+    },
+    {
+      "type": "tty",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x000000000693b480",
+      "width": 80,
+      "height": 21,
+      "fd": 17,
+      "writeQueueSize": 0,
+      "readable": true,
+      "writable": true
+    },
+    {
+      "type": "signal",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00007fe4a010feb8",
+      "signum": 28,
+      "signal": "SIGWINCH"
+    },
+    {
+      "type": "loop",
+      "is_active": false,
+      "address": "0x000000000532e5a0",
+      "loopIdleTimeSeconds": 0
+    }
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "SHELL": "/bin/bash",
+    "LSCOLORS": "Gxfxcxdxdxegedabagacad",
+    "SESSION_MANAGER": "local/liemnguyen-thinkpad-e14:@/tmp/.ICE-unix/2236,unix/liemnguyen-thinkpad-e14:/tmp/.ICE-unix/2236",
+    "QT_ACCESSIBILITY": "1",
+    "COLORTERM": "truecolor",
+    "XDG_CONFIG_DIRS": "/etc/xdg/xdg-ubuntu:/etc/xdg",
+    "SSH_AGENT_LAUNCHER": "gnome-keyring",
+    "LESS": "-R",
+    "NVM_INC": "/home/thinkpad/.nvm/versions/node/v18.19.0/include/node",
+    "XDG_MENU_PREFIX": "gnome-",
+    "TERM_PROGRAM_VERSION": "1.87.0",
+    "XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG": "/etc/xdg/xdg-ubuntu:/etc/xdg",
+    "YARN_HOME": "/home/hdoop/hadoop-2.10.2",
+    "GNOME_DESKTOP_SESSION_ID": "this-is-deprecated",
+    "GDK_BACKEND_VSCODE_SNAP_ORIG": "",
+    "HISTSIZE": "",
+    "HADOOP_OPTS": "-Djava.library.path=/home/hdoop/hadoop-2.10.2/lib/native",
+    "LC_ADDRESS": "vi_VN",
+    "GIO_MODULE_DIR_VSCODE_SNAP_ORIG": "",
+    "GNOME_SHELL_SESSION_MODE": "ubuntu",
+    "LC_NAME": "vi_VN",
+    "SSH_AUTH_SOCK": "/run/user/1000/keyring/ssh",
+    "HADOOP_INSTALL": "/home/hdoop/hadoop-2.10.2",
+    "XMODIFIERS": "@im=ibus",
+    "DESKTOP_SESSION": "ubuntu",
+    "LC_MONETARY": "vi_VN",
+    "BAMF_DESKTOP_FILE_HINT": "/var/lib/snapd/desktop/applications/code_code.desktop",
+    "OSH": "/home/thinkpad/.oh-my-bash",
+    "GTK_MODULES": "gail:atk-bridge",
+    "PWD": "/home/thinkpad/Desktop/Final Project/practice/backend/learning/diagnostic-report",
+    "GSETTINGS_SCHEMA_DIR": "/home/thinkpad/snap/code/153/.local/share/glib-2.0/schemas",
+    "XDG_SESSION_DESKTOP": "ubuntu",
+    "LOGNAME": "thinkpad",
+    "GTK_EXE_PREFIX": "/snap/code/153/usr",
+    "XDG_SESSION_TYPE": "wayland",
+    "SYSTEMD_EXEC_PID": "2275",
+    "XAUTHORITY": "/run/user/1000/.mutter-Xwaylandauth.SLNXJ2",
+    "VSCODE_GIT_ASKPASS_NODE": "/snap/code/153/usr/share/code/code",
+    "IM_CONFIG_CHECK_ENV": "1",
+    "GJS_DEBUG_TOPICS": "JS ERROR;JS LOG",
+    "HOME": "/home/thinkpad",
+    "USERNAME": "thinkpad",
+    "IM_CONFIG_PHASE": "1",
+    "LC_PAPER": "vi_VN",
+    "LANG": "en_US.UTF-8",
+    "LS_COLORS": "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:",
+    "XDG_CURRENT_DESKTOP": "Unity",
+    "HADOOP_MAPRED_HOME": "/home/hdoop/hadoop-2.10.2",
+    "WAYLAND_DISPLAY": "wayland-0",
+    "GIT_ASKPASS": "/snap/code/153/usr/share/code/resources/app/extensions/git/dist/askpass.sh",
+    "INVOCATION_ID": "b3ebec400af543b187ff0834bceeb1e0",
+    "MANAGERPID": "2076",
+    "HADOOP_COMMON_HOME": "/home/hdoop/hadoop-2.10.2",
+    "CHROME_DESKTOP": "code-url-handler.desktop",
+    "GJS_DEBUG_OUTPUT": "stderr",
+    "NVM_DIR": "/home/thinkpad/.nvm",
+    "VSCODE_GIT_ASKPASS_EXTRA_ARGS": "",
+    "GNOME_SETUP_DISPLAY": ":1",
+    "GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG": "",
+    "GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG": "",
+    "LESSCLOSE": "/usr/bin/lesspipe %s %s",
+    "XDG_SESSION_CLASS": "user",
+    "TERM": "xterm-256color",
+    "LC_IDENTIFICATION": "vi_VN",
+    "HADOOP_HOME": "/home/hdoop/hadoop-2.10.2",
+    "GTK_PATH": "/snap/code/153/usr/lib/x86_64-linux-gnu/gtk-3.0",
+    "LESSOPEN": "| /usr/bin/lesspipe %s",
+    "USER": "thinkpad",
+    "HADOOP_HDFS_HOME": "/home/hdoop/hadoop-2.10.2",
+    "GTK_PATH_VSCODE_SNAP_ORIG": "",
+    "VSCODE_GIT_IPC_HANDLE": "/run/user/1000/vscode-git-cfe994f9d4.sock",
+    "DISPLAY": ":0",
+    "SHLVL": "1",
+    "NVM_CD_FLAGS": "",
+    "LOCPATH": "/snap/code/153/usr/lib/locale",
+    "PAGER": "less",
+    "LC_TELEPHONE": "vi_VN",
+    "QT_IM_MODULE": "ibus",
+    "LC_MEASUREMENT": "vi_VN",
+    "GTK_EXE_PREFIX_VSCODE_SNAP_ORIG": "",
+    "LC_CTYPE": "en_US.UTF-8",
+    "XDG_RUNTIME_DIR": "/run/user/1000",
+    "XDG_DATA_DIRS_VSCODE_SNAP_ORIG": "/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop",
+    "LC_TIME": "vi_VN",
+    "HADOOP_COMMON_LIB_NATIVE_DIR": "/home/hdoop/hadoop-2.10.2/lib/native",
+    "VSCODE_GIT_ASKPASS_MAIN": "/snap/code/153/usr/share/code/resources/app/extensions/git/dist/askpass-main.js",
+    "JOURNAL_STREAM": "8:39085",
+    "XDG_DATA_DIRS": "/home/thinkpad/snap/code/153/.local/share:/home/thinkpad/snap/code/153:/snap/code/153/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop",
+    "GDK_BACKEND": "x11",
+    "PATH": "/home/thinkpad/.local/bin:/home/thinkpad/.nvm/versions/node/v18.19.0/bin:/home/thinkpad/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hdoop/hadoop-2.10.2/sbin:/home/hdoop/hadoop-2.10.2/bin:/home/hdoop/hadoop-2.10.2/sbin:/home/hdoop/hadoop-2.10.2/bin",
+    "HISTIGNORE": "exit:ls:bg:fg:history:clear",
+    "GDMSESSION": "ubuntu",
+    "HISTFILESIZE": "",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "ubuntu:GNOME",
+    "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1000/bus",
+    "GTK_IM_MODULE_FILE": "/home/thinkpad/snap/code/common/.cache/immodules/immodules.cache",
+    "NVM_BIN": "/home/thinkpad/.nvm/versions/node/v18.19.0/bin",
+    "LOCPATH_VSCODE_SNAP_ORIG": "",
+    "GIO_MODULE_DIR": "/home/thinkpad/snap/code/common/.cache/gio-modules",
+    "GIO_LAUNCHED_DESKTOP_FILE_PID": "8925",
+    "GIO_LAUNCHED_DESKTOP_FILE": "/var/lib/snapd/desktop/applications/code_code.desktop",
+    "LC_NUMERIC": "vi_VN",
+    "OLDPWD": "/home/thinkpad/Desktop/Final Project/practice/backend/learning/express-pino-app",
+    "TERM_PROGRAM": "vscode",
+    "_": "/home/thinkpad/.nvm/versions/node/v18.19.0/bin/node"
+  },
+  "userLimits": {
+    "core_file_size_blocks": {
+      "soft": 0,
+      "hard": "unlimited"
+    },
+    "data_seg_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_locked_memory_bytes": {
+      "soft": 2056208384,
+      "hard": 2056208384
+    },
+    "max_memory_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "open_files": {
+      "soft": 1048576,
+      "hard": 1048576
+    },
+    "stack_size_bytes": {
+      "soft": 8388608,
+      "hard": "unlimited"
+    },
+    "cpu_time_seconds": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_user_processes": {
+      "soft": 62451,
+      "hard": 62451
+    },
+    "virtual_memory_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    }
+  },
+  "sharedObjects": [
+    "linux-vdso.so.1",
+    "/lib/x86_64-linux-gnu/libdl.so.2",
+    "/lib/x86_64-linux-gnu/libstdc++.so.6",
+    "/lib/x86_64-linux-gnu/libm.so.6",
+    "/lib/x86_64-linux-gnu/libgcc_s.so.1",
+    "/lib/x86_64-linux-gnu/libpthread.so.0",
+    "/lib/x86_64-linux-gnu/libc.so.6",
+    "/lib64/ld-linux-x86-64.so.2"
+  ]
+}
