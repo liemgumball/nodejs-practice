@@ -8,6 +8,8 @@ const noteSchema = new Schema(
 	{ timestamps: true }
 )
 
+noteSchema.index({ title: 'text', text: 'text' })
+
 export type Note = InferSchemaType<typeof noteSchema>
 
 export default model<Note>('Note', noteSchema)
